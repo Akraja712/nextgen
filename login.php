@@ -85,7 +85,7 @@ if (isset($_POST['btnLogin'])) {
             width: 100%;
             margin-top:25px;
             border-radius: 10px;
-            border: 2px solid #3eb3a8;
+            border: 2px solid #c8246c;
             
         }
         .btn-customs {
