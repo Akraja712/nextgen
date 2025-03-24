@@ -136,7 +136,7 @@ if (isset($_POST['btnLogin'])) {
                 </div>
                 
                 <div class="form-group">
-                <button type="submit" class="btn btn-custom" name="btnLogin"  style="background-color:#3eb3a8; color:white; font-weight:bold;">Login</button>
+                <button type="submit" class="btn btn-custom" name="btnLogin"  style="background-color:#c8246c; color:white; font-weight:bold;">Login</button>
                 </div>
                 <div class="text-center mt-3">
                     <p>Don't have an account? <a href="register.php">Create New Account</a></p>

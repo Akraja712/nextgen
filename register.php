@@ -86,13 +86,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['ajax']) && $_POST['aj
         }
         .btn-custom {
             width: 100%;
-            background-color: #3eb3a8;
+            background-color:#c8246c;
             color: #fff;
             border-radius: 10px;
             transition: all 0.3s ease;
         }
         .btn-custom:hover {
-            background-color: #33998c;
+            background-color:#c8246c;
         }
         .error-msg {
             color: red;
