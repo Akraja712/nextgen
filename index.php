@@ -20,6 +20,9 @@
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
     <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
@@ -101,6 +104,8 @@
         padding-top: 25px;
         position: relative;
     }
+   
+
 </style>
 
 <body class="index-page">
@@ -114,22 +119,24 @@
                 <h1 class="sitename">Nextgen</h1>
             </a>
 
-            <nav id="navmenu" class="navmenu">
-                <ul>
-                    <li><a href="#hero" class="active">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="terms.html">Terms and conditions</a></li>
-                    <li><a href="privacy.html">Privacy policy</a></li>
-                    <li><a href="refund.html">Refund policy</a></li>
-                    <li><a href="login.php">Login</a></li>
+                   <nav id="navmenu" class="navmenu">
+            <ul>
+                <li><a href="#hero" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="Terms.html">Terms and conditions</a></li>
+                <li><a href="privacy.html">Privacy policy</a></li>
+                <li><a href="Refund.html">Refund policy</a></li>
+                <li><a href="login.php">Login</a></li>
+            </ul>
 
-                </ul>
-                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-            </nav>
+            <!-- Icon with Bootstrap or Font Awesome -->
+            <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+        </nav>
 
-        </div>
-    </header>
+    </div>
+</header>
+
 
     <main class="main">
 
@@ -173,7 +180,7 @@
             <div class="row g-4">
 
                 <!-- Box 1 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-4 payButton">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-4">
                     <div class="box">
                         <p><strong>E-Commerce Course</strong></p>
                         <p>Enroll Now</p>
@@ -186,7 +193,7 @@
 
 
                 <!-- Box 2 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-4 payButton">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-4">
                     <div class="box">
                         <p><strong>Retail Management Course</strong></p>
                         <p>Enroll Now</p>
@@ -198,7 +205,7 @@
                 </div>
 
                 <!-- Box 3 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-4 payButton">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-4">
                     <div class="box">
                         <p><strong>WellBeing Course</strong></p>
                         <p>Enroll Now</p>
@@ -210,7 +217,7 @@
                 </div>
 
                 <!-- Box 4 (Popular) -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-4 payButton">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-4">
                     <div class="box">
                         <p><strong> Learn International Language</strong></p>
                         <p>Enroll Now</p>
@@ -220,6 +227,7 @@
                         </div>
                     </div>
                 </div>
+           </div>
         <!-- Stats Section -->
         <section id="stats" class="stats section light-background">
 
