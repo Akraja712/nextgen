@@ -105,7 +105,39 @@
         position: relative;
     }
    
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .box p {
+        font-size: 14px;  /* Smaller text for medium screens */
+    }
+    .price {
+        font-size: 16px;
+    }
+}
 
+/* Mobile Layout: 3 boxes in one row + 1 below */
+@media (max-width: 768px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+    
+    .box {
+        width: 100%;
+    }
+
+    .box:nth-child(4) {
+        grid-column: span 3;  /* Last box spans the entire row */
+    }
+}
+
+/* Further adjust for very small screens */
+@media (max-width: 576px) {
+    .container {
+        grid-template-columns: 1fr;  /* Stack vertically */
+    }
+}
 </style>
 
 <body class="index-page">
@@ -180,7 +212,7 @@
             <div class="row g-4">
 
                 <!-- Box 1 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-4">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="box">
                         <p><strong>E-Commerce Course</strong></p>
                         <p>Enroll Now</p>
@@ -191,9 +223,8 @@
                     </div>
                 </div>
 
-
                 <!-- Box 2 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-4">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="box">
                         <p><strong>Retail Management Course</strong></p>
                         <p>Enroll Now</p>
@@ -205,7 +236,7 @@
                 </div>
 
                 <!-- Box 3 -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-4">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="box">
                         <p><strong>WellBeing Course</strong></p>
                         <p>Enroll Now</p>
@@ -216,10 +247,10 @@
                     </div>
                 </div>
 
-                <!-- Box 4 (Popular) -->
-                <div class="col-lg-3 col-md-4 col-sm-6 col-4">
+                <!-- Box 4 -->
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="box">
-                        <p><strong> Learn International Language</strong></p>
+                        <p><strong>Learn International Language</strong></p>
                         <p>Enroll Now</p>
                         <br><br>
                         <div class="price-box">
@@ -227,7 +258,10 @@
                         </div>
                     </div>
                 </div>
-           </div>
+
+            </div>
+        </div>
+
         <!-- Stats Section -->
         <section id="stats" class="stats section light-background">
 
